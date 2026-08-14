@@ -1,0 +1,56 @@
+# Environment variables - never commit API keys
+.env
+.env.local
+.env.production
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Project specific
+outputs/
+*.pdf
+*.md.bak
+
+# Logs
+*.log
+logs/
+
+# CrewAI cache
+.crewai/
+
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage
