@@ -2,6 +2,9 @@ from crewai import Agent
 from crewai_tools import SerperDevTool
 
 search_tool = SerperDevTool()
+
+def list_agent_roles():
+    return ['Senior Market Research Specialist', 'Strategic Business Analyst', 'Senior Investment Report Writer']
 research_agent = Agent(
     role="Senior Market Research Specialist",
     goal="""Uncover comprehensive intelligence about a company or startup —
